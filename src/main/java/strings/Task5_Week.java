@@ -13,7 +13,7 @@ public class Task5_Week {
 
         String res = "";
 
-        if(str == "Субота" || str == "Неділя"){
+        if (str == "Субота" || str == "Неділя") {
             res = "Сьоголні вихідний";
         } else {
             res = "Сьогодні робочий день";

@@ -13,13 +13,13 @@ public class Task2_Seasons {
 
         String res = "";
 
-        if(str == "summer"){
+        if (str == "summer") {
             res = "it's hot there";
-        } else if(str == "autumn"){
+        } else if (str == "autumn") {
             res = "it rains there";
-        } else if(str == "winter"){
+        } else if (str == "winter") {
             res = "it's cold there";
-        } else if(str == "spring"){
+        } else if (str == "spring") {
             res = "there are many flowers";
         }
 

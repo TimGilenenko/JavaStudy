@@ -13,13 +13,24 @@ public class Task4_Switch {
 
         String res = "";
 
-        switch (integer){
-            case 1: res = "Великий"; break;
-            case 2: res = "Вказівний"; break;
-            case 3: res = "Середній"; break;
-            case 4: res = "Безіменний"; break;
-            case 5: res = "Мізинець"; break;
-            default: res = "У людини 5 пальців";
+        switch (integer) {
+            case 1:
+                res = "Великий";
+                break;
+            case 2:
+                res = "Вказівний";
+                break;
+            case 3:
+                res = "Середній";
+                break;
+            case 4:
+                res = "Безіменний";
+                break;
+            case 5:
+                res = "Мізинець";
+                break;
+            default:
+                res = "У людини 5 пальців";
         }
 
         return res;

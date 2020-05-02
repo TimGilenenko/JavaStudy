@@ -13,7 +13,7 @@ public class Task3_Price {
 
         String res = "";
 
-        if(integer < 1000){
+        if (integer < 1000) {
             res = "ціна нормальна";
         } else {
             res = "Ціна висока";
